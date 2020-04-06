@@ -119,12 +119,13 @@ export const asyncRouterMap = [
         component: () => import('@/views/pms/brand/add'),
         meta: {title: '添加品牌'},
         hidden: true
+
       },
       {
         path: 'updateBrand',
         name: 'updateBrand',
         component: () => import('@/views/pms/brand/update'),
-        meta: {title: '编辑品牌'},
+        meta: {title: '编辑品牌2'},
         hidden: true
       }
     ]
